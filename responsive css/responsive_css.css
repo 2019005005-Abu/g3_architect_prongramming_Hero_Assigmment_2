@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile  device responsive */
+@media only screen and (max-width: 637px) {
+    /* upper-nav-section responsive */
+    .navSection{
+        padding: 50px 0;
+    }
+   
+    .navUppesrsection{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 20px 0;
+    }
+    .nav_list ul{
+        margin:20px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    /* Middle nav bar responsive */
+    .navmaiddile_Title{
+        text-align: center;
+    }
+    .nav_middle_des{
+        text-align: justify;
+       
+    }
+
+    /* Last nav section */
+     .last-nav-section img{
+        max-width:100%;
+        min-height: 100%;
+        padding: 20px 20px;
+     }
+
+     /* Quick List section starts from here */
+     .quick__list{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:200px ;
+        
+     }
+     .quickListImg{
+        flex-direction: column !important;
+     }
+     .img1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        z-index: -1;
+     }
+
+     .img2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        z-index: -2;
+     }
+  .img3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 3;
+  }
+  .img4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 4;
+    transform: translateX(-100px) translateY(100px);
+  }
+     .quickTitle{
+        text-align: center;
+        margin-left: 55px;
+        margin-top: 50px;
+     }
+     .quickParagraph p{
+        text-align: center;
+     }
+     .btn{
+        margin-left: 200px;
+
+       
+     }
+     /* love enjoy section */
+     .loveAndEnjoy_Section{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 0;
+        position: relative;
+        right:100px ;
+     }
+    .loveAndEnjoy_Section .loveEnjoy h1{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 30px;
+       
+    }
+    .paragraph_1{
+     text-align: center;
+     width: 390px;
+     transform: translateX(-40px);
+    }
+    .lovaEnjoy_image img{
+        max-width:800px;
+        max-height: 500px;
+    }
+    .experience_section{
+        width: 100px;
+        height:100px;
+    }
+    .boxShadowBox{
+        transform: translateX(-100px);
+        position: relative;
+    }
+    .boxShadowBox,
+    .box_shadow_1{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+         box-shadow: none!important;
+         margin-top: 20px;
+
+    }
+
+   .lovaEnjoy_image{
+    width: 100%;
+    margin-left:120px ;
+    padding: 10px;
+   }
+  .loveAndEnjoy_Section .lovaEnjoy_image{
+    transform: translateX(-150px);
+  }
+   /* Faccts section starts from here */
+   .factsSection{
+    margin-top: 100px;
+    margin-right: 100px;
+    transform: translateX(-150px);
+   }
+   .fatsTitle{
+    text-align: center;
+    line-height: 10px;
+    transform: translateX(150px);
+    font-size: 30px;
+   }
+   .factsParagraph{
+    text-align: center;
+    margin-right: 100px;
+   }
+   .ProjectDetails{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .sponshorCompany{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+   }
+   footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+   }
+  }
+

@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Common code*/
+ .primary_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .primary_btn button{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 30px;
+ }
+/* Navbar-Upper-section starts from here */
+  .navSection{
+    background: rgba(255, 144, 14, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .navUppesrsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .nav_list ul li{
+    list-style-type: none;
+  }
+  .nav_list ul{
+    display: flex;
+    gap: 20px;
+  }
+  .nav__logoTitle h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+  }
+  .lite_item li{
+   font-weight: 500;
+   font-size: 18px;
+   color: #424242;
+  }
+  #barsIcons{
+    display: none;
+  }
+/* Navbar_-Upper-section ends from here */
+
+/* Navbar-middle-section statt from here */
+.nav__middleSection{
+  margin-top: 10px;
+}
+.navmaiddile_Title{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.nav-bar-middle-description .nav_middle_des{
+    /* width: 868px;
+    height: 52px; */
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+/* Navber-middle-section-ends from here */
+
+/* Last nav section last from here */
+.last-nav-section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-nav-section img{
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+/* Last nav section ends from here */
+
+/* Quick list starts from here */
+ 
+   .quick__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+    .quickListImg{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin-left: 250px;
+      padding: 50px;
+      grid-row-gap: 20px;
+      grid-column-gap: 20px;
+    }
+
+   .quickListImg img{
+    width: 300px;
+    height: 300px;
+   }
+  .span_1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+  }
+  .span_2{
+    font-weight: 700;
+    font-size: 45px;
+     color: #131313;
+  }
+  .span_3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+  }
+  .quickParagraph p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+  }
+  .quickListtext{
+    padding: 30px;
+    position: relative;
+  }
+  .quickListtext .primary_btn{
+    position: absolute;
+    margin-right: 600px;
+  }
+  .quickListtext .quickParagraph{
+    width: 537px;
+  }
+  
+/* Quick list ends from here */
+
+/* Love and Enjoy section starts from here */
+   .loveAndEnjoy_Section{
+     display: flex;
+     justify-content: center;
+     margin-left: 240px;
+     gap: 50px;
+     padding: 30px;
+   }
+     .lovaEnjoy_image img{
+      max-width: 100%;
+      height: 1059px;
+      position: relative;
+     }
+     .loveEnjoy h1{
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 53px;
+      color: #131313;
+      margin-bottom: 20px;
+     }
+     .paragraph_1{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: left;
+      color: #727272;
+     }
+      
+     .box_shadow_1{
+      width: 514px;
+      height: 150px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 10px;
+      transition: .8s;
+      margin-bottom: 60px;
+      /* padding-bottom: 20px; */
+
+     }
+     .box_shadow_1:hover{
+      transform: scale(1.5) translateY(10px) translateX(-60px);
+     }
+     .boxShadowBox{
+       margin-top: 20px;
+     }
+     .shadow_tex_1 h1{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 20px;
+      color: #131313;
+     }
+     .shadow_text_para p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #727272;
+     }
+     .experience_section{
+      border: 1px solid black;
+      width: 342px;
+      height: 200px;
+      text-align: center;
+      padding: 20px;
+      background-color: #FF900E;
+      border: none;
+      border-top-width: 0;
+      position: absolute;
+      margin-top: -100px;
+      margin-left: -100px;
+      border-radius: 5px;
+     }
+     .years{
+      margin-top: 30px;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 70px;
+      color: #FFFFFF;
+     }
+     .experience{
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 40px;
+      color: #FFFFFF;
+     }
+
+/* Love and Enjoy section ends from here */
+
+/* Fats section starts from here */
+ .factsSection{
+  margin-top: 200px;
+  position: relative;
+  margin-bottom: 15px;
+ }
+ .fatsTitle{
+  text-align: center;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 200px;
+ }
+
+ .factsParagraph{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 542px;
+  height: 52px;
+  position: absolute;
+  left: 200px;
+  top: 80px;
+ }
+/* Facts section ends from here */
+
+/*
+Project details starts from her 
+ */
+  .ProjectDetails{
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    
+  }
+  .iconCount{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+  }
+  .icontitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+  }
+  .singDiv{
+    border: 1px  solid #FF900E;
+    padding: 30px;
+    transition: .5s;
+  }
+  .singDiv:hover{
+    transform: scale(1.5) translateY(10px);
+  }
+ /* Project details ends from here */
+
+ /* sponsor section starts from here */
+ .sponshor_section{
+  margin-top: 100px;
+  text-align: center;
+
+ }
+ .shonsorshipTitle h1{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 20px;
+ }
+ .sponshorshipParagraph p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  width: 542px;
+  height: 52px;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+ /* sponshor section aends from here */
+
+
+ /* Sponsor company strats from here */
+  .sponshorCompany{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 50px;
+  }
+ /* Sponsor comany ends from here */
+
+ /* Footer section starta from here */
+  footer{
+    margin-top: 130px;
+  }
+  footer p{
+    width: 1440px;
+    margin: 0 auto;
+    background: #FFF4E7;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    border: none;
+    font-weight: 400;
+    color: #424242;
+    font-size: 20px;
+  }
+ /* footer section ends from here */
